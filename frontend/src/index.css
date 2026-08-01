@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-stadium-900 text-courtline font-body;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display tracking-wide;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md font-display uppercase tracking-wider text-sm transition-colors duration-150 disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+  .btn-primary {
+    @apply btn bg-shuttle text-stadium-950 hover:bg-shuttle/90;
+  }
+  .btn-secondary {
+    @apply btn bg-stadium-700 text-courtline hover:bg-stadium-700/70 border border-stadium-700;
+  }
+  .btn-teamA {
+    @apply btn bg-teamA text-stadium-950 hover:bg-teamA/90;
+  }
+  .btn-teamB {
+    @apply btn bg-teamB text-stadium-950 hover:bg-teamB/90;
+  }
+  .card {
+    @apply bg-stadium-800 border border-stadium-700 rounded-xl shadow-lg;
+  }
+  .badge {
+    @apply px-2 py-0.5 rounded-full text-xs font-display uppercase tracking-wider;
+  }
+  .score-digit {
+    @apply font-score tabular-nums text-4xl md:text-5xl;
+  }
+  .input-field {
+    @apply w-full bg-stadium-950 border border-stadium-700 rounded-md px-3 py-2 text-courtline placeholder-courtline/40 focus:outline-none focus:ring-2 focus:ring-shuttle;
+  }
+}
