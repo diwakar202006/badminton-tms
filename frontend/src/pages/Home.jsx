@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-10 flex flex-col gap-12">
       <section className="text-center flex flex-col items-center gap-4 py-10">
-        <h1 className="text-4xl md:text-6xl text-shuttle">Six Courts. One Live Board.</h1>
+        <h1 className="text-4xl md:text-6xl text-shuttle">welcome to senior badminton intramurals 2026.</h1>
         <p className="text-courtline/60 max-w-xl">
-          Follow every rally as it happens, check what's next, or catch up on results — no login required.
+          organised by depart of physical education VIT-AP university Follow every rally as it happens — no login required.
         </p>
         <div className="flex flex-wrap gap-3 justify-center mt-2">
           <Link to="/live" className="btn-primary">Watch Live</Link>
