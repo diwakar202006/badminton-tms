@@ -11,7 +11,7 @@ export default function Home() {
       <section className="text-center flex flex-col items-center gap-4 py-10">
         <h1 className="text-4xl md:text-6xl text-shuttle">welcome to senior badminton intramurals 2026.</h1>
         <p className="text-courtline/60 max-w-xl">
-          organised by depart of physical education VIT-AP university Follow every rally as it happens — no login required.
+          organised by department of physical education VIT-AP university Follow every rally as it happens — no login required.
         </p>
         <div className="flex flex-wrap gap-3 justify-center mt-2">
           <Link to="/live" className="btn-primary">Watch Live</Link>
